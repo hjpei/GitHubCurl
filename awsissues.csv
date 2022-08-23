@@ -1,0 +1,398 @@
+Language,Repository,URL,Title,Labels,Assignee,Difficulty
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1176,Add 1.23 to awslabs/kubernetes-iteration-toolkit,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1175,"Have projects' (etcd, etc) versions change depending on k8s version in awslabs/kubernetes-iteration-toolkit",,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1174,Update awslabs/kubernetes-iteration-toolkit to use new 1.19 - 1.22 versions,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1115,Automate generation of changelog changes,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1061,Resolve Dependabot alerts for 1.21,area/maintenance,kevinsalerno
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1104,Document minor release process,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1128,`kubectl version` returns Minor server version as `22+` instead of just `22`,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1121,Create workflow to pull in changes from upstream automatically and apply patches,,kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/896,EKS D Release process detailed activity diagram,area/docs,kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1116,Alphabetize components in release manifest,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/743,Fix docs workflow,,kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1103,Document Release Process,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1044,1.23.8 release,release,kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1058,Resolve how to add weird releases on GitHub,,kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/914,Better automation around EKS-D releases for consumers,"infra,kind/enhancement",kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/888,Migrate to CDK v2,,kevinsalerno
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1063,Resolve Dependabot alerts for 1.19,area/maintenance,kevinsalerno
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/1062,Resolve Dependabot alerts for 1.20,area/maintenance,kevinsalerno
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/773,Add Kubernetes version to table in README,"size/M,area/docs",kschumy
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/776,Remove outdated user section in docs,"documentation,size/S",
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/839,How to install EKS-D on-premise on ubuntu 20.04,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/694,Add codebuild pipeline for eks-d,infra,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/972,"When applicable, add version labels (e.g. v1.22) to generated PRs",size/S,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/985,Update Prow,,
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/696,Add karpenter autoscaler to eks-d/a prow infra,"size/M,infra,area/prow",
+Shell,eks-distro,https://github.com/aws/eks-distro/issues/975,1.24 Release,,"kevinsalerno,kschumy"
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21711,aws_events_targets : EcsTarget can't be set to `latest` revision,"feature-request,needs-triage,@aws-cdk/aws-events-targets",rix0rrr
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21618,AWS CDK: Rename dimensions metric property to dimensionsMap,"bug,p2,@aws-cdk/aws-cloudwatch,effort/small,in-progress",peterwoodworth
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21456,(aws-cdk): cdk bootstrap prints YAML template even when using --json option,"bug,good first issue,p2,package/tools,effort/small",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21690,(ec2): cannot provide availabilityZones to VPC ,"bug,p1,@aws-cdk/aws-ec2,effort/small",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21694,CfnRoute: Unable to find route table,"bug,response-requested,@aws-cdk/aws-ec2,needs-reproduction",corymhall
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21695,(aws-cdk-lib): Slow Python import times,"bug,p2,response-requested,effort/large,aws-cdk-lib",madeline-k
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21645,Pipeline: Value of CfnOutput is different if used in a PolicyStatement vs a property of `envFromCfnOutputs`,"bug,p2,response-requested,effort/small,@aws-cdk/pipelines",rix0rrr
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21576,AutoScalingGroupProps.AssociatePublicIpAddress has no effect,"bug,p2,@aws-cdk/aws-autoscaling,effort/small,in-progress",peterwoodworth
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21706,(assertions): Add Template.resourcePropertiesCountIs() method,"p2,feature-request,effort/small,in-progress,@aws-cdk/assertions",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21662,"s3: autoDeleteObjects fails on deploy with ""NoSuchKey"" error","bug,response-requested,@aws-cdk/aws-s3,needs-reproduction",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21567,@aws-cdk/aws-lambda-nodejs: Extended config for TSC precompilation does not support Node.js style resolution,"bug,needs-triage,@aws-cdk/aws-lambda-nodejs",corymhall
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21607,(Lambda Python): pipenv support broken,"bug,response-requested,needs-triage,@aws-cdk/aws-lambda-python",corymhall
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21630,"aws-lambda-nodejs: Default entry finding fails when defining file starts with ""file://"" ","bug,response-requested,needs-reproduction,needs-triage,@aws-cdk/aws-lambda-nodejs",corymhall
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21712,(aws-ssm): CloudFormation templates gets parameters in random order with every update,"bug,@aws-cdk/aws-ssm,needs-triage",otaviomacedo
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/4391,support routing policy setting for ARecord class,"p1,feature-request,@aws-cdk/aws-route53,effort/medium",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21708,(ec2): Make it easy/possible to create persistent UserData on a Windows instance.,"p2,feature-request,@aws-cdk/aws-ec2,effort/small",corymhall
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/18698,(cdk-route53): Unable to create VPC Endpoint Service private DNS name in existing PublicHostedZone,"bug,p2,@aws-cdk/aws-route53,effort/medium",
+TypeScript,aws-cdk,https://github.com/aws/aws-cdk/issues/21658,cloudtrail: snsTobic is read incorrectly in L2,"bug,p2,@aws-cdk/aws-cloudtrail,effort/medium",comcalvi
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4530,Using ResourceGroupTagging API returns partial results than UI resource explorer,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4517,Add a filter field To DescribeTagsInput struct in elbv2 Package,"feature-request,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4522,WaitWithContext panics without helpful error if the Request errors,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4515,List call for AWS Neptune DB Cluster does not support filter param,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4510,GetObject returns incomplete object,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4499,Please migrate to new Yaml Version V3(short issue description),"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/423,Perform Clock Skew Correction in Go SDK,"feature-request,no-autoclose",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4496,AWS SDK mutates http.DefaultTransport,bug,
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4385,Latency issues w/ STS credentials,"bug,needs-review",vudh1
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/3935,SDK client overrides region settings for custom s3api endpoint ,workaround-available,vudh1
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4473,SESv2 API should use `io.ReadSeeker` Data type in `RawMessage`,feature-request,skmcgrail
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4469,I'm getting the below error while fetching objects from the S3 bucket.  Error: RequestError: send request failed caused by: Get https://bucketName.s3.ap-south-1.amazonaws.com/xyz.jpg: dial tcp: lookup bucketName.s3.ap-south-1.amazonaws.com on x.x.x:53: no such host,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4481,Error `WAFNonexistentItemException` in classic WAF regional `GET` APIs,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4457,Input paramter MaxResults is not working properly in ListIdentityProviderConfigsPages API,bug,
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4429,CostExplorer GetCostAndUsage API returns inconsistent result ,"bug,needs-triage",RanVaknin
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4462,Redshift API Call ModifyClusterIamRoles error,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/3756,Terraform fails to init itself if cli_pager= has set no pager in .aws/config,"bug,3rd-party",KaibaLopez
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4451,endpoints: lazy load partitions to shave off more than 2.5MiB in binary size,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4441,Be able to calculate sizes of `PutMetricData` requests client-side,feature-request,
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4447,Lambda function URLs How to Read Body from Post?,"documentation,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4444,[shared defaults] unable to locate files when environment variables are not set,"bug,needs-triage",
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4367,Panic in elb.CreateLoadBalancer when AWS_REGION is not set,"bug,needs-review",vudh1
+Go,aws-sdk-go,https://github.com/aws/aws-sdk-go/issues/4436,Application in pod not picking up role from service account,"bug,needs-triage",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/55,Using SAM Local inside docker-compose,"area/docker,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/137,Feature Request: API Gateway Authorizer support in SAM Local,"type/feature,priority/2-important,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/217,[Feature Request]  Add support for X-Ray on SAM Local,"type/feature,priority/2-important,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/223,Support for custom authorizer in Swagger definition,"priority/3-long-term,type/feature,area/api-integration,stage/pm-review,maintainer/need-followup",sapessi
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1654,Show release history and allow rollback to previous revision,"type/feature,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/327,Pretty print option for sam local invoke output,"type/ux,priority/4-nice-to-have,type/feature,contributors/welcome,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/364,[Feature Request] Schema validation on an API Gateway Request,"type/feature,area/local/start-api,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/510,Support one Local Lambda calling another Local Lambda scenarios,"area/docs,type/feature,priority/2-important,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/477,Compression packs symlinks as copies,"area/bestpractices,area/package,type/bug,stage/needs-investigation,area/performance,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/659,Custom DNS support for SAM Docker container,"type/feature,area/docker,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/681,Support for context.function_name?,"type/question,stage/needs-attention,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/697,[Feature Request] Cognito Offline Testing,"type/feature,area/local/start-api,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/756,npm link causes sam local to error,"type/bug,area/build,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/794,"""sam build"" feedback: Support private PyPi repositories","type/feature,type/feedback,area/build,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/790,[Feature Request] InlineCode support for sam local,"area/lambda-invoke,type/feature,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/817,Add pipenv support for build command,"area/build,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/818,build: editable dependencies in Python breaks build command,"area/build,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/851,Package command should fail without Transform: AWS::Serverless-2016-10-31,"type/ux,area/package,type/feature,area/deploy,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/896,Websocket Support for API Gateway,"type/feature,area/local/start-api,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/879,sam package speed degrade when artifact size is large,"type/ux,area/package,area/performance,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/900,Run tests in an environment which also includes layers,"type/feature,type/bug,area/layers,stage/bug-repro,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/933,Include cfn-python-lint checks into sam validate,"type/feature,area/validate,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/963,'docker-volume-basedir' option for 'sam build' command,"type/ux,type/feature,area/docker,area/build,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/973,Building functions that require native libraries to be present,"type/feature,area/build,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1003,[start-api] Support Api Gateway Integration type: aws,"type/feature,area/local/start-api,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/995,Include parameters from file in template.yaml,"type/feature,stage/needs-feedback,area/layers,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1005,SAM should fall back to copy if mounting a directory fails,"area/lambda-invoke,type/feature,area/debugging,area/build,stage/pm-review,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1008,ALB support from SAM ,"type/feature,stage/needs-feedback,stage/pm-review,maintainer/need-followup",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1010,Path variables are not compatible with API Gateway,"type/ux,area/local/start-api,maintainer/need-response",
+Python,aws-sam-cli,https://github.com/aws/aws-sam-cli/issues/1024,"""sam build"" omits cpython DLLs?","type/ux,type/bug,area/build,maintainer/need-followup",
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3352,General question on releases,,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3335,Instructions for Setting up ECS Agent Container (i.e. Other Linux AMIs when awsvpc networking mode is enabled) Do Not Work,more info needed,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3226,AWS ECS task stuck in pending state,more info needed,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3323,Incorrect memory utilization under cgroup2 on Amazon Linux 2022,,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3331,Huge memory available diff reported by ECS agent,,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3131,Containers/tasks started by ecs-agent sometimes have no network connectivity,more info needed,
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3241,Allow alternate credential profiles to be specified,"kind/tracking,scope/ECS Anywhere",
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3227,Cannot launch tasks on Ubuntu 22.04,"kind/tracking,scope/ECS Anywhere",
+Go,amazon-ecs-agent,https://github.com/aws/amazon-ecs-agent/issues/3270,ECS agent unable to mount a fsx window volume that contains a quotation mark in password,os/windows,
+Go,aws-lambda-go,https://github.com/aws/aws-lambda-go/issues/447,[Question] Is the cfn package compatible with `cfn test` ?,"enhancement,help wanted",
+Go,aws-lambda-go,https://github.com/aws/aws-lambda-go/issues/458,There is no Condition field in the IAMPolicyStatement,,
+Go,aws-lambda-go,https://github.com/aws/aws-lambda-go/issues/150,AppSync event looks like a map and not like AppSyncResolverTemplate,type/documentation,
+Go,aws-lambda-go,https://github.com/aws/aws-lambda-go/issues/421,Mismatched CodePipeline CloudWatch fields,,
+Go,aws-lambda-go,https://github.com/aws/aws-lambda-go/issues/270,NewHandler should return input if it is of type Handler,,
+Go,karpenter,https://github.com/aws/karpenter/issues/2290,Adding Dynamic Taints to Nodes based on Tolerations,feature,jonathan-innis
+Go,karpenter,https://github.com/aws/karpenter/issues/2308,Consolidate on a schedule,feature,
+Go,karpenter,https://github.com/aws/karpenter/issues/2321,Support for burstable performance instances selector,feature,
+Go,karpenter,https://github.com/aws/karpenter/issues/2323,Docs: Upgrade Guide,"bug,documentation",
+Go,karpenter,https://github.com/aws/karpenter/issues/1327,v1alpha6 Laundry List,"feature,roadmap",
+Go,karpenter,https://github.com/aws/karpenter/issues/2178,How to set node scaling policy,lifecycle/stale,
+Go,karpenter,https://github.com/aws/karpenter/issues/1995,Allow allocating storage capacity based on instance type ,feature,
+Go,karpenter,https://github.com/aws/karpenter/issues/2298,"Get ""Failed to provision new node, incompatible with provisioner"" when adding ephemeral storage resource request to pod",question,
+Go,karpenter,https://github.com/aws/karpenter/issues/2273,Karpenter is not aware of the CNI pod limit per node,feature,
+Go,karpenter,https://github.com/aws/karpenter/issues/2250,Karpenter takes time to provision a node,question,
+Go,karpenter,https://github.com/aws/karpenter/issues/2140,Security groups,"lifecycle/stale,terraform",
+Go,karpenter,https://github.com/aws/karpenter/issues/2162,[Bug]: false value cant be quoted,"lifecycle/stale,terraform",
+Go,karpenter,https://github.com/aws/karpenter/issues/2163,hostNetwork true,"lifecycle/stale,terraform",
+Go,karpenter,https://github.com/aws/karpenter/issues/2193,Add toleration to helm chart with terraform,"help-wanted,good-first-issue",
+Go,karpenter,https://github.com/aws/karpenter/issues/1279,Add allowed-unsafe-sysctls kubelet flag,feature,felix-zhe-huang
+Go,karpenter,https://github.com/aws/karpenter/issues/2259,Savings plan support,feature,
+Go,karpenter,https://github.com/aws/karpenter/issues/2252,Karpenter provisioned nodes do not always terminate,question,
+Go,karpenter,https://github.com/aws/karpenter/issues/331,Capacity Type Distribution,"feature,kep",
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/9,Warnings on CLI with Python 3.8.1,,halcarleton
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/176,Python 3.8 deployment: Invalid requirement: 'scikit_learn~1.0.1',,
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/114,.ebignore doesn't strictly follow .gitignore syntax,,
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/58,`eb local run` supports docker-compose.yml?,enhancement,
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/154,Creating environment from saved config fails with `'PlatformBranch' object has no attribute 'has_healthd_support'`,,
+Python,aws-elastic-beanstalk-cli,https://github.com/aws/aws-elastic-beanstalk-cli/issues/144,Ssh command fails when ssh agent try many identity files,,
+Shell,amazon-ecs-ami,https://github.com/aws/amazon-ecs-ami/issues/62,Use gp3 volume for ECS optimized AMIs,"enhancement,contributions welcome",
+TypeScript,aws-iot-device-sdk-js-v2,https://github.com/aws/aws-iot-device-sdk-js-v2/issues/276,Problem Compiling node-gyp in ARM7,"bug,closing-soon,response-requested",
+TypeScript,aws-iot-device-sdk-js-v2,https://github.com/aws/aws-iot-device-sdk-js-v2/issues/223,Support using with ESM in browser,feature-request,
+TypeScript,aws-iot-device-sdk-js-v2,https://github.com/aws/aws-iot-device-sdk-js-v2/issues/128,Greengrass V2 interprocess communication (IPC),feature-request,
+TypeScript,aws-iot-device-sdk-js-v2,https://github.com/aws/aws-iot-device-sdk-js-v2/issues/164,Greengrass discovery sample doesn't print DiscoveryError information,bug,jmklix
+TypeScript,aws-iot-device-sdk-js-v2,https://github.com/aws/aws-iot-device-sdk-js-v2/issues/187,[OS X] can't connect: error importing private key with OSStatus -25257 / failed to import certificate and private key with error 1038,"bug,needs-review",
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3114,trunked port support in Tinkerbell,,jacobweinstock
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2809,Avoid building the snow aws client map for all snow machine configs,,jiayiwang7
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2908,Enable Volume Expansion for vSphere CSI,external,
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3093,unable to upgrade cluster: creating new cluster on existing cluster is not supported for self managed clusters,,
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3091,Flux fails to upgrade if flux-system kustomization is suspended,,
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3102,Chart.yaml of eks-anywhere-packages helm chart has a wrong version,,
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/393,Customize cillium cni configuration,"kind/enhancement,team/cli,area/cli",
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2906,"Boot hang after ""random: crng init done"" at worker node(ProLiant XL675d Gen10 Plus w/AMD EPYC 7543)","question,external",
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2747,Manually updating state for `in_use` Tinkerbell Hardware objects cause cluster to go down,"kind/bug,provider/tinkerbell",pokearu
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3071,Consolidate EKSA_VSPHERE_* Env Var Validation,"kind/cleanup,team/cli,area/providers/vsphere",
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2929,EKS-A Controller using outdated spec builder,"kind/enhancement,team/providers,area/controller",
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/3064,Support multi-version doc site,,
+Go,eks-anywhere,https://github.com/aws/eks-anywhere/issues/2918,Remove Packages Prod Account from codebase,"kind/enhancement,team/packages",
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/208,Global latency with AWS CloudFront and AWS AppSync,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/147,RFC: JavaScript Resolvers in AWS AppSync,rfc,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/18,Feature request: $util functions to generate signed S3 URL's,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/26,Custom scalar types,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/240,error in query with multiple resolvers at root nulls out all data,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/215,[Feature Request] Support bulk API (NDJSON) request to OpenSearch,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/237,Mutations not replacing previous values,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/236,Appsync one click deployment from dev to prod environment like API gateway,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/235,VTL - current week index,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/234,How to perform Suggester Auto completion in AppSync,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/201,Remove alg parameter as required for OPENID_CONNECT Authorization,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/226,RFC - AWS AppSync Merged APIs,rfc,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/74,[Question] How to access request cookies header in a JS Lambda Resolver,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/190,Custom CloudWatch log group name,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/130,Feature Request: Custom API KEY,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/214,AppSync returns Unauthorized when using Lambda Authorizer,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/96,"OpenID Authorisation can't handle ""Bearer "" in header value",enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/103,Enable CORS on the AppSync Admin APIs,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/232,BUG: CreatedAt used in beginsWith with several parameters requires AWSDateTime input instead of a string,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/231,Allow Subscription to return a type that the Mutation Response Implements ,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/230,"AWS Appsync GraphQL: Resolver Request Payload does not contain ""identity"" in the context",,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/81,Feature Request: HTTP Resolver to Private ELB or VPC Link support,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/83,Question: Secure Appsync API,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/225,AppSync Sync Operation Query According To A Partition Key (PK),,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/229,Subscription filtering,,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/44,How to handle escaping quotes in mutations against SQL Datasource?,enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/21,Feature request: Support for the Long datatype (64 bit integer),enhancement,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/202,Per Resolver CachingKeys for Cognito Custom Attribute,pending triage,
+HTML,aws-appsync-community,https://github.com/aws/aws-appsync-community/issues/228,AppSync DynamoDB Resolvers with update conditions,,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/167,Container build not installing/finding dependencies contained in model.tar file,type: question,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/226,local tests are failing with connection refused,,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/138,how to handle application/x-image ?,type: question,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/225,no module named boto3 when attempting to start tfserving 1.14 container,,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/223,"Docs on how to submit an invoke endpoint request for images, comparison to predict method",,
+Python,sagemaker-tensorflow-serving-container,https://github.com/aws/sagemaker-tensorflow-serving-container/issues/154,Input a csv file for prediction/ batch transform. The output is a json format txt,type: question,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3875,client-s3: add Location to PutObjectCommandOutput,"feature-request,needs-triage",
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3848,Missing documentation for Route53 Change object,documentation,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3846,DynamoDBDocument can't unmarshall null,bug,RanVaknin
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3777,"Cannot read property 'Error' of undefined"" exception at loadEc2ErrorCode",bug,RanVaknin
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2438,@aws-sdk/s3-request-presigner breaks commands executed in parallel on the same client,"response-requested,closing-soon,bug",yenfryherrerafeliz
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3872,Construct Upload object with controlled AbortController,feature-request,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3871,GetPipelineStateCommand Not Returning Token,"service-api,bug,needs-triage",
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3849,marshallInput fails to marshall AttributeUpdates for map attributes,"bug,needs-review,p2",yenfryherrerafeliz
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3497,s3-request-presigner: `Content-Type` is not signed by default when specified,"closing-soon,bug",yenfryherrerafeliz
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3589,Athena: StartQueryExecutionCommand - No output location provided,"response-requested,documentation",ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3035,[client-cloudfront] Region should not be required,feature-request,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2544,[dynamodb] Query input parameter validation error with paginator,"service-api,documentation,workaround-available",ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2428,Client-transcribe-streaming - Websocket is closing.,"bug,workaround-available",ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3629,"SignedUrl SignatureDoesNotMatch when SecretAccessKey contains ""/""","response-requested,bug",ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2634,Unmarshing DynamoStream events,feature-request,ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3855,Bring back SendRawEmailCommand for SESv2,feature-request,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3822,SSO Admin Conflict exception defined as non-retryable error,bug,
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3858,presigning an endpoint with port doesn't work,"response-requested,bug",ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3622,non standard ESM published,"bug,needs-review,p2",
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2283,Remove duplicated common dependencies among modules,"feature-request,closing-soon",
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3603,GetBucketLocationCommand - cross account issue,"bug,needs-review","AllanZhengYP,yenfryherrerafeliz"
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3505,Cannot load credentials from ini when using source_profile in conjunction with credential_process,"bug,needs-review",yenfryherrerafeliz
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2684,Recursive Flag on S3 Copy (similar to cli),"feature-request,closing-soon",
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3776,Unable to delete messages from SQS,"response-requested,bug",yenfryherrerafeliz
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/3390,Typescript compilation problems since 3.52.0 in lib-dynamodb,bug,ajredniwja
+TypeScript,aws-sdk-js-v3,https://github.com/aws/aws-sdk-js-v3/issues/2478,Unable to use with vite,"bug,workaround-available,p1",kuhe
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7214,ecs execute-command fails silently on Apple Silicon (M1),"bug,needs-triage",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7174,AWS_PROFILE priority over credentials in environment variables,"feature-request,credential-provider,response-requested",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/5261,Provide way to get current credentials (AWS SDKs do not support SSO),"feature-request,configuration,v2,sso,needs-review",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7201,"Error parsing parameter '--steps': Expected: ',', received: '""' for input:","documentation,feature-request,emr,has-pr",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7210,NAT Gateway deletion option absent,"bug,ec2,response-requested",aBurmeseDev
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7104,[v2] Session Duration of Permission Set is not respected by AWS CLI,"bug,response-requested,sso",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7208,"Parameter validation failed: Invalid type for parameter Configurations[1].Properties.spark.shuffle.service.enabled, value: True, type: <class 'bool'>, valid types: <class 'str'>",feature-request,tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7206,Make an option for `aws eks update-kubeconfig` to exclude and set `env` in kubeconfig,"feature-request,eks-kubeconfig,response-requested,customization",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7194,sts assume-role-with-web-identity needs a backoff-retry mechanism,"bug,response-requested,sts",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7183,Documented settings precedence not followed ,"bug,response-requested",aBurmeseDev
+Python,aws-cli,https://github.com/aws/aws-cli/issues/2685,s3 sync --delete not deleting empty folders,"s3sync,feature-request,community,contribution-ready",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/4972,"[v2] Unable to prevent aws help output from going to a pager (AWS_PAGER, PAGER aren't respected)","feature-request,v2,pager",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7138,Alphabets in secret version id are converted UPPER_CASE only when `--output text` is specified,"bug,secretsmanager",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7189,GreengrassV2: AccessDeniedException when calling CreateComponentVersion,"bug,response-requested,greengrass",aBurmeseDev
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7164,aws kinesisvideo update-image-generation-configuration --cli-input-json file://./update-image-generation-input.json  invalid,"bug,response-requested,kinesisvideo",tim-finnigan
+Python,aws-cli,https://github.com/aws/aws-cli/issues/6652,Cannot reapply for SES prod access via the CLI after initial denial,"documentation,feature-request,service-api,sesv2",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/1201,Ability to create entry in ~/.aws/credentials from CSV,feature-request,
+Python,aws-cli,https://github.com/aws/aws-cli/issues/3064,aws ecs - how to update a task definition,"feature-request,service-api",kdaily
+Python,aws-cli,https://github.com/aws/aws-cli/issues/5836,🐳 Publish Docker Image on ECR Public,"feature-request,docker",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/6010,Publish V2 as a Ubuntu PPA or Ubuntu Snap,"feature-request,v2,installation",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/3868,`aws cognito-idp list-users` and `aws cognito-idp list-user-pools` do not paginate by default,"feature-request,cognito,paginator",
+Python,aws-cli,https://github.com/aws/aws-cli/issues/7150,v2 CHANGELOG.rst fails to render on github.com,bug,
+Go,amazon-ec2-instance-selector,https://github.com/aws/amazon-ec2-instance-selector/issues/113,Add support of assume role with MFA,enhancement,
+Go,amazon-ec2-instance-selector,https://github.com/aws/amazon-ec2-instance-selector/issues/144,Ability to filter Ipv4 per ENIs,enhancement,
+Python,aws-secretsmanager-caching-python,https://github.com/aws/aws-secretsmanager-caching-python/issues/18,Not able to read the Database secret,triage/needs-investigation,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/152,Feature Request: support greater than 4096 characters of Environment Properties,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/256,PHP8.1 support lacking basic requirements,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/97,Can not modify environment in not ready state,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/255,Docker Compose V2,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/254,"Set trigger to highlight ""warning"" status in beanstalk environment",,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/174,Keep Python up-to-date,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/116,Tomcat 10 with Corretto,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/243,"AWS elastic beanstalk environment health is severe . In the health check , we are getting below error ",Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/251,eb platform create fails with Ruby SDK deprecated error,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/181,Worker-Tier SQSD - Add Ability to Stop Poll on Sig Term,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/189,Support for .ebextensions option_settings in new Linux 2 Platform,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/241,Support Node 18.x,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/253,Enhance SSL Policies for Environment Creation,Proposed,jglelacheur
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/249,Amazon Linux 2022 support,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/250,PHP 8.2 support,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/235,Support built-in blue/green deployment ,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/44,Remove default security group from EC2-Instance,,rahulrajaram
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/139,Cache bundle install on ruby applications,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/232,Support for Ruby 3.1,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/203,Restrict access to load balancer via cloudfront,Proposed,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/248,Allow NLB health check to use HTTP,,
+null,elastic-beanstalk-roadmap,https://github.com/aws/elastic-beanstalk-roadmap/issues/47,Remove public IP on single instance deployments,Proposed,
+Python,aws-eks-best-practices,https://github.com/aws/aws-eks-best-practices/issues/211,"Logging best practices, across accounts guidance",idea,jicowan
+Python,aws-eks-best-practices,https://github.com/aws/aws-eks-best-practices/issues/210,Docker in Docker guidance,idea,jicowan
+Python,aws-eks-best-practices,https://github.com/aws/aws-eks-best-practices/issues/209,Control-plane diagram should show Internet GW or ELB symbol instead of current NAT GW,correction,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3571,[Example Request] PyTorch 1.11 with SM Training Compiler - Tuning Hyperparameters,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3570,[Example Request] HuggingFace PyTorch 1.11 with SM Training Compiler - Multi Node Multi GPU,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3569,[Example Request] HuggingFace PyTorch 1.11 with SM Training Compiler - Single Node Multi GPU,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/2433,automate_model_retraining_workflow.ipynb failed CI,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3567,[Content Improvement] stdout from wget in Machine Translation English-German Example Using SageMaker Seq2Seq,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3535,[Bug Report] pytorch_torchvision_neo.ipynb deploy model fails,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3531,[Content Improvement] Amazon_JumpStart_Semantic_Segmentation.ipynb show training metrics,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3530,[Content Improvement] Example class_label_to_prediction_index.json,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3428,using monotonicity constraints - XGBoost as a built-in algorithm,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3525,Real-time Batch Inference with Torchserve - Number of batch response mismatched ,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3521,Triton on SageMaker - NLP Bert - Failed to parse ONNX model from file: model.onnx,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3519,[Bug Report]notebook being stuck and no response,,
+Jupyter Notebook,amazon-sagemaker-examples,https://github.com/aws/amazon-sagemaker-examples/issues/3518,AttributeError: module 'aiobotocore' has no attribute 'AioSession'[Bug Report],,
+Python,chalice,https://github.com/aws/chalice/issues/1962,Support for Ephemeral Storage size in config parameters,,
+Python,chalice,https://github.com/aws/chalice/issues/1961,Consider taking a direct dependency on watchdog,,
+Python,chalice,https://github.com/aws/chalice/issues/1373,Deploy stages to different regions,feature-request,
+Python,chalice,https://github.com/aws/chalice/issues/1959,Proxy Forwarding with 1 resource and route inside Chalice,,
+Python,chalice,https://github.com/aws/chalice/issues/1566,Blueprints and lambda function inconsistency,bug,
+Python,chalice,https://github.com/aws/chalice/issues/1957,Error deploying the stage if api mappings are more than 25 in custom domain,,
+Python,chalice,https://github.com/aws/chalice/issues/1952,Terraform: Duplicate required providers configuration,,
+Python,chalice,https://github.com/aws/chalice/issues/1937,Is it possible to use a private repository with chalices requirements.txt?,,
+Python,chalice,https://github.com/aws/chalice/issues/1943,Can't find lamdba name in CDK and can't get os.env on_dynamodb_record,,
+Python,chalice,https://github.com/aws/chalice/issues/1948,possible to write pure function in javascript inside chalice?,,
+Python,chalice,https://github.com/aws/chalice/issues/1926,"Allow User to Custom the Naming convention ""{app_name}-{stage}-{func_name}""",,
+Python,chalice,https://github.com/aws/chalice/issues/1912,Support for SNS Subscription Filter Policies,,
+Python,chalice,https://github.com/aws/chalice/issues/1808,Add support for selecting Architecture to Deploy function to,feature-request,
+Python,chalice,https://github.com/aws/chalice/issues/1431,Chalice API Gateway endpoint vs local - paths are different,enhancement,
+Python,chalice,https://github.com/aws/chalice/issues/1852,"""The domain name you provided already exists"" Continuous Deployment (CD) + Custom Domain Names",,
+Python,chalice,https://github.com/aws/chalice/issues/1618,Lambda layer updating when there were no changes,enhancement,
+Python,chalice,https://github.com/aws/chalice/issues/1847,ValueError: Resource does not exist: api_gateway_custom_domain,,
+Python,chalice,https://github.com/aws/chalice/issues/1913,AWS Lambda Function URL support in Chalice,,
+Python,chalice,https://github.com/aws/chalice/issues/1833,[v2] Replace the built-in deployer,"proposals,v2",
+Python,chalice,https://github.com/aws/chalice/issues/1947,Deploy time Secrets Manager support needed,,
+Python,chalice,https://github.com/aws/chalice/issues/1946,Need to pass parameters in hash,,
+Python,chalice,https://github.com/aws/chalice/issues/1721,Add support for MSK event source,feature-request,
+Python,chalice,https://github.com/aws/chalice/issues/1457,Add support for authorizers in websocket APIs,feature-request,
+Python,chalice,https://github.com/aws/chalice/issues/1910,Is it possible to create multiple layers for a lambda in Chalice?,,
+Python,chalice,https://github.com/aws/chalice/issues/1224,[Proposal] Modeling,proposals,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/351,Allow %cancel_load magic to cancel all queued jobs,enhancement,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/350,Allow %load_ids magic to expose load status for each bulk loader job,enhancement,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/332,Disable SSL Verification,enhancement,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/324,Missing ability to connect via basic auth to non AWS servers,"enhancement,Gremlin",michaelnchin
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/314,Add support for connecting to Neo4j,enhancement,michaelnchin
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/303,[BUG] SPARQL Construct raw output is not RDF (wrong request headers?),bug,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/233,Update stream_viewer to support new Neptune streams features,enhancement,
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/298,Error displaying widget,"bug,needs information",
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/293,[BUG] EFL-SPARQL notebook CONSTRUCT does not filter to just EFL,"bug,needs information",
+Jupyter Notebook,graph-notebook,https://github.com/aws/graph-notebook/issues/306,Explicitly specify GraphSON V3 serializer when creating Gremlin connection,Gremlin,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2830,"Sax Feaure ""disallow-doctype-decl"" incompatible with fasterxml woodtstox SaxParser","bug,needs-triage",
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2827,ProcessCredentialsProvider does not indicate why the process failed,"feature-request,needs-triage",
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2802,The security token included in the request is expired,bug,debora-ito
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2795,Unable to unmarshall exception response with the unmarshallers provided,bug,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2807,AWSLogs#putLogEvents call never ends when the max batch size is exceeded,bug,debora-ito
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2811,"S3: unclear what storage class to use for ""Glacier Flexible Retrieval""",documentation,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2799,forceGlobalBucketAccessEnabled does not work when dualstackEnabled is set for S3,bug,yasminetalby
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2760,AWSSecurityTokenServiceClient.doInvoke goes into infinite loop,bug,debora-ito
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2399,Extend TransferManager to support copying virtual directories within S3,feature-request,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2797,Configured Non Proxy Hosts in Java S3 Client does not appear to be honored,"bug,needs-triage",
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2783,S3EventNotificationRecord does not store information about lifecycleEventData,bug,debora-ito
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2635,Use AmazonSimpleEmailServiceClientBuilder when creating AWSJavaMailTransport without provided credentials.,feature-request,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2727,Resuming download with TransferManager not working after JVM restart (AWS SDK 1.12.180),bug,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/474,Mutipart upload from InputStream (without supplying content-length) uses putObject().,feature-request,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2746,"AbstractProfilesConfigFileScanner does not support comments starting with "";""",bug,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/1990,Preemptive proxy authentication,bug,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/1981,Tests failing when building from source,feature-request,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/834,Presigned V4 URLs using Java SDK,feature-request,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2770,Error occurred while invoking handler method: com.amazonaws.SdkClientException: Unable to execute HTTP request: Connect to ssm.us-east-1.amazonaws.com:443,bug,
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2759,"Use the PutObjectRequest request and call the withAccessControlList method to add the AccessControlList. As a result, the objects in the bucket on the target end have not changed.",bug,debora-ito
+null,aws-sdk-java,https://github.com/aws/aws-sdk-java/issues/2598,Slow download using transferManager.downloadDirectory(),bug,
+Java,smithy-go,https://github.com/aws/smithy-go/issues/354,smithy-go does not provide support for @restJson1 protocol trait,enhancement,
+Java,smithy-go,https://github.com/aws/smithy-go/issues/373,enhancement: Option to generate a go.mod file,,
+Java,smithy-go,https://github.com/aws/smithy-go/issues/371,Alias type name hides interface type name in generated input/output types,,
+Java,smithy-go,https://github.com/aws/smithy-go/issues/370,Go inputs/outputs can't be serialized/deserialized into valid smithy,,
+Java,smithy-go,https://github.com/aws/smithy-go/issues/287,SyntheticClone should be renamed to Synthetic,refactor,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3442,Tracking issue: openssl3 support,s2n-core,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3455,Harden building/linking with libcrypto,s2n-core,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3432,Fragment post-handshake messages if necessary,s2n-core,lrstewart
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3438,s2n_recv only reads one record per call,s2n-core,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3445,error open urandom,,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3446,Make s2n_init idempotent or return error for multi-s2n_init invocations,"type/feature_request,type/client_improvement",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3435,Manually validate rsa_pss certificate signature schemes,s2n-core,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3399,rust bindings: provide poll_recv with uninitialized destination buffer,"SCS,bindings/rust",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/1820,"s2n write APIs do not return the number of actually copied bytes, and thereby allow for Stream corruption","type/docs,type/api",lrstewart
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/1733,API improvements for custom IO objects,,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/1732,Memory management issues when using custom IO contexts,,
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/1808,Support an Openssl 3.0 build,type/new_crypto,toidiu
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3115,Reduce s2n-tls binary size,"type/platform_support,type/post-quantum,type/optimization",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3427,Clean up lcov from codebuild and remove post-build step,"type/code_coverage,s2n-core",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/948,On hardware acceleration and prioritizing ChaCha20-Poly1305,"status/needs_team_discussion,type/api",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/3417,Rust bindings tests in the s2n-tls-tokio crate are flaky on macOS,"s2n-core,bindings/rust",
+C,s2n-tls,https://github.com/aws/s2n-tls/issues/1671,Unit and/or Integration tests needed to verify handling of plaintext and encrypted Alert messages,"type/test,type/tls_1.3,type/integration_test,s2n-core",franklee26
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1812,CloudWatch GetMetricDataOutput:MetricDataResult missing metric dimensions and namespace,"bug,needs-triage",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1788,Support KMS parameters used by AWS Nitro Enclaves,service-api,RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1787,STS PresignAssumeRole support,feature-request,RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1803,"Go get github.com/aws/aws-sdk-go-v2/feature/dynamodb not working, unable to add import ""github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue""","bug,response-requested,closing-soon",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1811,Current version of aws-sdk-go-v2/service/sts uses functionality from smithyhttp that does not exist in its current version.,"bug,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1474,How to create pre-signed URL with metadata in URL query string?,"feature-request,needs-review",KaibaLopez
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1775,Missing paginator for S3 ListObjectVersions,"feature-request,contribution/core",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1755,Allow callbacks on retry attempt in Retryer,"guidance,needs-triage",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1809,Invalid field type for ReceiveMessageInput.AttributeNames in api_op_ReceiveMessage,"bug,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1533,Downloader Concurrency of 1 does NOT download parts sequentially,"bug,needs-reproduction",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1808,Add CloudWatch code example from AWS SDK docs repo,"documentation,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1804,s3上传zip.File失败,"bug,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1802,MediaConvert CreateJob failing with `required property` error,"bug,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1797,AnonymusCredentials is not respected by S3 API,"bug,pending-release",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1792,Broken link to example in GeneratePresignedURLv2 Documentation,"documentation,needs-review",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1690,parsing error in GetBucketLifecycleConfiguration when <ExpiredObjectDeleteMarker> tag is empty,"bug,needs-triage",vudh1
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/69,feature/cognito: Add similar customizations as AWS SDK for Javascript,feature-request,
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1665,DynamoDB rate limit error without throttling on the table,bug,vudh1
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1224,Add convenience method for S3 presigned posts,"feature-request,needs-review",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1777,On the Using the AWS SDK for Go V2 with AWS Services link to AWS SDK for Go V2 API Reference is wrong,"documentation,needs-triage",vudh1
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/134,marshal dynamodb results directly to JSON,"needs-design,feature-request",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1746,New S3 ChecksumAlgorithm not working with presigned URL,"bug,service-api,needs-review",RanVaknin
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1771,RDS's 'BuildAuthToken' should validate that the port is present in the database endpoint string,"bug,needs-triage",
+Go,aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/issues/1272,"context cancellation semantics, errors, etc..., are incomplete",documentation,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/809,aws-load-balancer-controller - support feature-gates,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/810,aws-for-fluent-bit - remove PodSecurityPolicy,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/687,AWS For Fluent Bit chart fails on K8S 1.20 due to deprecated apiVersion in templates,bug,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/709,New charts are not being published,bug,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/727,Unable to upgrade chart version from 0.16.0 to 0.18.1,,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/799,aws-node-termination-handler - psp is deprecated on k8s 1.22,bug,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/795,aws-sigv4-proxy-admission-controller - failed to call webhook,bug,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/719,[aws-for-fluent-bit] Is this chart the recommended way to setup FluentBit on AWS EKS?,,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/785,[appmesh-controller] - Append cluster name to mesh objects to avoid name collisions in multi-cluster setups,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/421,"[aws-vpc-cni] Helm install failed, due to missing required annotation for CRD metadata",bug,jayanthvn
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/781,[aws-for-fluent-bit] Adding common tollerations to aws-for-fluent-bit daemonset,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/751,"aws-for-fluent-bit errors when disabling firehose, kinesis, and elastisearch plugins",bug,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/773,Exclude logs by using a pattern or regex in  aws-for-fluent-bit  chart for EKS ,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/573,[aws-for-fluent-bit] Add Exclude_Path to default INPUT,enhancement,
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/436,[aws-for-fluent-bit] Log Group retention time setting not working.,bug,"hossain-rayhan,PettitWesley"
+Mustache,eks-charts,https://github.com/aws/eks-charts/issues/749,appmesh-prometheus chart deployment fails on EKS with Kubernetes Version 1.22,bug,
+C,aws-nitro-enclaves-sdk-c,https://github.com/aws/aws-nitro-enclaves-sdk-c/issues/84,`aws_kms_decrypt_blocking` API does not support rsa decryption because it cannot receive key-id and encryption-algorithm,,

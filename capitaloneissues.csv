@@ -1,0 +1,25 @@
+Language,Repository,URL,Title,Labels,Assignee,Difficulty
+Python,datacompy,https://github.com/capitalone/datacompy/issues/157,Mismatch between Summary Report and Actual ,"bug,question",fdosani
+Python,datacompy,https://github.com/capitalone/datacompy/issues/151,numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl: 1 vulnerabilities (highest severity is: 5.3),security vulnerability,
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/606,Static Type Hinting: `dataprofiler/reports/utils.py`,"New Feature,static_typing,good_first_issue","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/605,Static Type Hinting: `dataprofiler/validators/base_validators.py`,"New Feature,static_typing,good_first_issue","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/610,Static Type Hinting: `dataprofiler/data_readers/`,"New Feature,static_typing","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/609,Static Type Hinting: `dataprofiler/labelers/`,"New Feature,static_typing","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/608,Static Type Hinting: `dataprofiler/profilers/`,"New Feature,static_typing","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/607,Static Type Hinting: `dataprofiler/reports/graphs.py`,"New Feature,static_typing","JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/604,Presets for ProfilerOptions/Profiler,New Feature,"JGSweets,taylorfturner,micdavis,ksneab7"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/516,numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl: 1 vulnerabilities (highest severity is: 5.3),security vulnerability,
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/448,"DataProfiler.Data should use relative path, then fail over to absolute",New Feature,"JGSweets,micdavis"
+Python,DataProfiler,https://github.com/capitalone/DataProfiler/issues/480,Ability to enforce data types.,,
+Python,edgetest,https://github.com/capitalone/edgetest/issues/47,Support for pyproject.toml,"enhancement,help wanted,question","fdosani,ak-gupta"
+Python,global-attribution-mapping,https://github.com/capitalone/global-attribution-mapping/issues/84,numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl: 1 vulnerabilities (highest severity is: 5.3),security vulnerability,
+Python,synthetic-data,https://github.com/capitalone/synthetic-data/issues/259,numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl: 1 vulnerabilities (highest severity is: 5.3),security vulnerability,
+Jupyter Notebook,rubicon-ml,https://github.com/capitalone/rubicon-ml/issues/247,add example showing rubicon w/ DataProfiler,"documentation,example",
+Jupyter Notebook,rubicon-ml,https://github.com/capitalone/rubicon-ml/issues/243,Validate fspec backends work with Rubicon,"documentation,discussion",
+Jupyter Notebook,rubicon-ml,https://github.com/capitalone/rubicon-ml/issues/244,Add Tags to Artifact Class,"enhancement,development",
+Python,edgetest-hub,https://github.com/capitalone/edgetest-hub/issues/37,`edgetest-hub` errors out when the index changes but the files do not.,,
+Python,edgetest-conda,https://github.com/capitalone/edgetest-conda/issues/39,Add Python 3.10 to GHA Matrix,"enhancement,good first issue",
+Python,edgetest-conda,https://github.com/capitalone/edgetest-conda/issues/17,supporting environment.yml updates,"enhancement,help wanted,question","fdosani,ak-gupta"
+Python,edgetest-conda,https://github.com/capitalone/edgetest-conda/issues/32,switching to the conda python api,"enhancement,good first issue,help wanted,question",
+Python,edgetest-conda,https://github.com/capitalone/edgetest-conda/issues/29,Ability to update meta.yml file if tests run successfully,enhancement,"fdosani,ak-gupta"
+TypeScript,acronym-decoder,https://github.com/capitalone/acronym-decoder/issues/54,node-sass-7.0.1.tgz: 1 vulnerabilities (highest severity is: 5.3),security vulnerability,
