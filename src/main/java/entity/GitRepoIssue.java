@@ -19,6 +19,8 @@ public class GitRepoIssue {
     private List<GitUser> assignees;
     private GitUser closed_by;
     private boolean locked;
+    private GitPullRequest pull_request;
+    private List<GitLabel> labels;
 
     public String getUrl() {
         return url;
@@ -122,5 +124,21 @@ public class GitRepoIssue {
 
     public void setLocked(boolean locked) {
         this.locked = locked;
+    }
+
+    public List<GitLabel> getLabels() {
+        return labels;
+    }
+
+    public void setLabels(List<GitLabel> labels) {
+        this.labels = labels;
+    }
+
+    public GitPullRequest getPull_request() {
+        return pull_request;
+    }
+
+    public void setPull_request(GitPullRequest pull_request) {
+        this.pull_request = pull_request;
     }
 }
